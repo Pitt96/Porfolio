@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cabecera.css">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Roy Palomino</title>
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
             </label>
             <ul class="nav_menu">
                 <li><a href="#inicio" class="active">Inicio</a></li>
-                <li class="bord"><a href="#nosotros">Habilidades</a></li>
+                <li class="bord"><a href="./page/habilidades.html">Habilidades</a></li>
                 <li class="bord"><a href="#cursos">Proyectos</a></li>
                 <li class="bord"><a href="#noticias">Contacto</a></li>
             </ul>
@@ -28,16 +29,213 @@
     </header>
     <main>
         <div class="main">
-            <div class="globo">
-                <img src="./image/fondo.png" alt="">
-            </div>
-            <div class="presentacion">
-                <h1>Hola, soy Roy</h1>
-                <p class="titulo">Desarrallador Web</p>
-                <p class="exp">Alta experiencia en desarrollo web, maquetador y programador.</p>
-                <a href="#">Contáctame</a>
-            </div>
+            <section class="banner">
+                <div class="globo">
+                    <img src="./image/fondo.png" alt="">
+                </div>
+                <div class="presentacion">
+                    <h1>Hola, soy Roy</h1>
+                    <p class="titulo">Desarrallador Web</p>
+                    <p class="exp">Alta experiencia en desarrollo web, maquetador y programador.</p>
+                    <a href="#">Contáctame</a>
+                </div>
+            </section>
+            <section class="abaut">
+                <div class="content_descripcion">
+                    <h2>Sobre Mi</h2>
+                    <div class="content_imgPerfil">
+                        <img src="./image/perfil.jpeg" alt="">
+                    </div>
+                    <p>Soy estudiante de la carrera de Ingeniería de Sistemas, 
+                        me considero una persona proactiva y con predisposición 
+                        al aprendizaje y mejora continua, deseoso de afrontar 
+                        nuevos retos laborales poniendo en practica mis conocimientos 
+                        relacionados a la informática, cuento con experiencia en 
+                        diversos proyectos de Front-end, aplicaciones de escritorio y 
+                        base de datos realizados de manera independiente y en el transcurso de mi carrera.</p>
+                </div>
+                <div class=" content_exp">
+                    <div class="hijo_exp">
+                        <span>02+</span>
+                        <p>
+                            Años de experiencia
+                        </p>
+                    </div>
+                    <div class="hijo_exp">
+                        <span>10+</span>
+                        <p>
+                            
+                            Proyectos Realizados
+                        </p>
+                    </div>
+                    <div class="hijo_exp">
+                        <span>01</span>
+                        <p>
+                            Compañia trabajada
+                        </p>
+                    </div>
+                </div>
+                <a href="./Pdf/Roy_Palomino_CV.pdf" download="" class="download-button">
+                    <div class="docs">
+                        <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line y2="13" x2="8" y1="13" x1="16"></line>
+                            <line y2="17" x2="8" y1="17" x1="16"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg> 
+                        Descargar CV
+                    </div>
+                    <div class="download">
+                        <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line y2="3" x2="12" y1="15" x1="12"></line>
+                        </svg>
+                    </div>
+                </a>
+            </section>
+            <section class="contenedor_education">
+                <h2><i class="fa-sharp fa-solid fa-graduation-cap"></i> Educación</h2>
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Ingenieria de Sistemas e informática</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>UTP</p>
+                            <p><i class="fa-solid fa-calendar-days"></i> marzo 2020 - En curso</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Programacion con JavaScript</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Fundacion Telefónica Movistar</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>23 junio 2020</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Java</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>SoloLearn</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>Agosto 2020</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Desarrollo Web</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Google Actívate</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>junio 2021</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Python</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>UTP</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>enero 2022 - febrero 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Desarrollo Web</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>CODERHOUSE</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>marzo 2022 - mayo 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Java Básico</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>CERSEU-FISI-UNMSM</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>mayo 2022 - julio 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Java Escritorio</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Ceti Chiclayo</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>19 mayo 2022 - 20 agosto 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Diseño Web(HMTL5 + CSS)</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Fundacion Telefónica Movistar</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>07 junio 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Programa ONE - Oracle Next Education</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>ALURA LATAM - ONE Oracle Next Education </p>
+                            <p><i class="fa-solid fa-calendar-days"></i>21 julio 2022 - En curso</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>CODERHOUSE</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>octubre 2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Especialización Java Web Developer</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Galaxy Training</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>19 noviembre 2022 - En curso</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Desarrollo Web Full Stack</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <p>Dojopy</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>19 diciembre - En curso</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+    <footer>
+        <div class="footer">
+            <p>© Todos los derechos estan reservados</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*es para que el scroll sea suave-lento*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins','Source Sans 3', sans-serif;
+}
+body::-webkit-scrollbar{
+    width:10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba( 162, 163, 187, 0.9 );
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+}
+/*Navegacion*/
+header{
+    width: 100%;
+    height: 84px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 0px 0.5px 8px #F9A000; */
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 79px;
+    height: 52px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.bar_btn{
+    font-size: 36px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+.fa-bars{
+    color: #20063B;
+    
+}
+
+.nav_menu{
+    position: fixed;
+    width: 170px;
+    height: 200px;
+    top: 85px;
+    right:-1000px;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    box-shadow: 4px 4px 10px rgba(132, 6, 59, 0.5);
+    /*154, 209, 212, 0.5 */
+    border-radius: 16px 0px 0px 16px;
+    transition: all .5s ;
+
+    background: rgba( 255, 255, 255, 0.4 );
+    
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    
+    
+}
+
+.nav_menu li{
+    list-style: none;
+    display: none;
+    line-height: 30px;
+    margin: 0px 10px 0px 20px;
+    padding-top: 15px;
+    transition: all .5s ;
+    /* background: rgba(0, 0, 0, .95);  */
+}
+
+.nav_menu .bord{
+    border-top: 1px solid #20063B;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .5s ;
+}
+
+.nav_menu li a:hover, .nav_menu li a.active{
+    color:#CC3363;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav_menu{
+    top: 70px;
+    right: 0;
+    height: 200px;
+    transition: all .5s ;
+    z-index: 9999;
+}
+
+#check:checked ~ .nav_menu li{
+    display: block;
+}

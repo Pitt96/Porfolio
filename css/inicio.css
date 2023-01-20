@@ -12,6 +12,7 @@
 
 .main{
     margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
@@ -113,14 +114,26 @@
     height: 264px;
     border-radius: 20px;
     /* border: 1px solid red; */
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: -8px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    overflow: hidden;
 }
 .content_descripcion .content_imgPerfil img{
     width: 100%;
+    height: 100%;
     border-radius: 20px;
-    
+    display: block;
+    transition: transform 2s;
+    inset: 0;
+    object-fit: cover;
 }
+.content_descripcion .content_imgPerfil:hover img{
+    transform: scale(1.3);
+}
+
+
 .content_descripcion p{
     text-align: justify;
     width: 270px;

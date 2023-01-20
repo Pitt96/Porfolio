@@ -1,0 +1,115 @@
+.main_certificaciones{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main_certificaciones h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contents_certificados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contents_cert_utp{
+    width: 310px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.card_cert_utp{
+    width: 300px;
+    padding-top: 10px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #212121;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card_cert_utp h3{
+    text-align: center;
+    color: white;
+}
+.card_cert_utp p{
+    color: white;
+    font-size: 12px;
+}
+
+.card_cert_utp .div_img{
+    width: 280px;
+    /* height: 420px; */
+    border-radius: 10px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.card_cert_utp .div_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 2s;
+}
+
+.card_cert_utp .div_img:hover img{
+    transform: scale(1.3);
+}
+
+.card_cert_utp .actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    
+}
+
+.card_cert_utp .actions a{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.content_cert_ext{
+    width: 310px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.habi_mas_cert{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.content_icones_habilidades{
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.content_icones_habilidades .fa-brands{
+    font-size: 25px;
+}

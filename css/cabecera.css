@@ -131,3 +131,113 @@ nav{
 #check:checked ~ .nav_menu li{
     display: block;
 }
+
+/*Footer*/
+.site-footer{
+    background-color:#26272b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.site-footer li{
+    list-style: none;
+    list-style: none;
+    cursor: pointer;
+}
+.site-footer a{
+    text-decoration: none;
+}
+.content_foo_info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+}
+.site-footer h6{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+.foo_des{
+    color:#737373;
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
+}
+.content_h_m{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.content_h_m a,.content_menu a{
+    color: #737373;
+    font-size: 15px;
+}
+.content_h_m a:hover,.content_menu a:hover{
+    color:#3366cc;
+}
+.site-footer hr{
+    width: 280px;
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.content_redes{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.copyright-text{
+    font-size: 15px;
+    color: #737373;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons li a{
+    color: #818A91;
+    background-color: #33353D;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-icons li a i{
+    font-size: 18px;
+}
+.social-icons li a:hover{
+    color: white;
+}
+
+.social-icons li .linkedin:hover{
+    background: #0A66C2;
+}
+.social-icons li .git:hover{
+    background: #161B22;
+}
+.social-icons li .correo:hover{
+    background: #E4405F;
+}
+.social-icons li .whats:hover{
+    background: #24C24A;
+}

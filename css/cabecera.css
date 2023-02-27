@@ -61,8 +61,8 @@ nav{
     font-size: 36px;
     margin-right: 20px;
     cursor: pointer;
-    
 }
+
 .fa-bars{
     color: #20063B;
     
@@ -240,4 +240,13 @@ nav{
 }
 .social-icons li .whats:hover{
     background: #24C24A;
+}
+/*Media querys*/
+@media all and (min-width: 480px){
+    .content_foo_info{
+        width: 370px;
+    }
+    .site-footer hr{
+        width: 370px;
+    }
 }

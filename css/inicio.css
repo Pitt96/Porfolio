@@ -25,6 +25,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
 }
 .presentacion{
     width: 300px;
@@ -294,14 +295,51 @@
 .timeline-date h3{
     font-size: 16px;
 }
-/*-----footer-------*/
-.footer{
-    margin-top: 40px;
-    width: 100%;
-    background-color: #242A35;
-    height: auto;
-    color: white;
+/*-----responsive-------*/
+@media all and (min-width: 480px){
+    .banner{
+        width: 80%;
+    }
+    .globo{
+        width: 370px;
+        height: auto;
+    }
+    .presentacion{
+        width: 370px;
+    }
+    .presentacion .exp{
+        width: 295px;
+    }
+    .abaut{
+        width: 80%;
+    }
+    .abaut .content_descripcion{
+        width: 370px;
+    }
+    .content_descripcion .content_imgPerfil{
+        width: 260px !important;
+        height: 320px;
+    }
+    .contenedor_education{
+        width: 80%;
+    }
+    
 }
-.footer p{
-    text-align: center;
+@media all and (min-width: 600px){
+
+}
+@media all and (min-width: 768px){
+
+}
+@media all and (min-width: 800px){
+
+}
+@media all and (min-width: 1024px){
+
+}
+@media all and (min-width: 1280px){
+
+}
+@media all and (min-width: 1440px){
+
 }
